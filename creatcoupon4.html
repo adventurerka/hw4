@@ -17,8 +17,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>storeEval</td>
+	<td>Math.floor(1+Math.random()*99)</td>
+	<td>numbercoupons</td>
+</tr>
+<tr>
 	<td>store</td>
-	<td>sale</td>
+	<td>2017/11/07</td>
+	<td>MyDate</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>sale2</td>
 	<td>coupon</td>
 </tr>
 <tr>
@@ -28,7 +38,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//tr[4]//span[@class='side-name-link']</td>
+	<td>css=table.active a[title='Coupons']</td>
 	<td></td>
 </tr>
 <tr>
@@ -38,7 +48,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//div[@id='content']/a</td>
+	<td>css=div#content a i.glyphicon-pencil</td>
 	<td></td>
 </tr>
 <tr>
@@ -54,12 +64,12 @@
 <tr>
 	<td>type</td>
 	<td>id=number_coupons</td>
-	<td>5</td>
+	<td>${numbercoupons}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=valid_date</td>
-	<td>20170715</td>
+	<td>${MyDate}</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -88,7 +98,7 @@
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
-	<td>css=button.btn</td>
+	<td>css=form.form-inline button.btn</td>
 	<td></td>
 </tr>
 <tr>
@@ -118,12 +128,12 @@
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
-	<td>css=button.btn</td>
+	<td>css=form.form-inline button.btn</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=button.btn</td>
+	<td>css=form.form-inline button.btn</td>
 	<td></td>
 </tr>
 <tr>
